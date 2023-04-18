@@ -4,6 +4,7 @@
 @import url("styles/carrossel.css");
 @import url("styles/topicos.css");
 @import url("styles/contato.css");
+@import url("styles/footer.css");
 
 :root {
     --fundo-cinza: #EBECEE;
@@ -19,8 +20,4 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-}
-
-.rodape__titulo {
-    padding: 1em 2em;
 }
