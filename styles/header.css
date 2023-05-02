@@ -54,18 +54,9 @@
     text-transform: uppercase;
 }
 
-.container__botao {
+.container__botao, .container__titulo, .opcoes, .container__texto {
     display: none;
 }
-
-.container__titulo {
-    display: none;
-}
-
-.opcoes {
-    display: none;
-}
-
 
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
@@ -87,6 +78,7 @@
     }
 
     .opcoes__item {
+        cursor: pointer;
         padding: 0 1em;
         text-transform: uppercase;
     }
@@ -111,5 +103,33 @@
 
     .opcoes__botao {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        color: var(--preto);
+    }
+
+    .opcoes {
+        margin-right: auto;
+        padding: 0 0 0 2em;
+    }
+
+    .opcoes__item {
+        cursor: pointer;
+    }
+
+    .container__texto {
+        display: block;
     }
 }

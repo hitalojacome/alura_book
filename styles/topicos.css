@@ -46,3 +46,9 @@
         gap: 10px;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 20vw;
+    }
+}
