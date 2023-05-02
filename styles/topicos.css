@@ -43,5 +43,6 @@
         margin: auto;
         justify-content: justify;
         width: 70%;
+        gap: 10px;
     }
 }
